@@ -1,3 +1,12 @@
-<h2>Dashboard</h2>
+<h2>Admin Dashboard</h2>
+
+<% console.log("THIS IS ALL THE USERS~~~~~~~~~~~~~~~", users[1].dataValues.email) %>
 
 <h3>Welcome to your Dashboard</h3>
+<h4>Here are all the users</h4>
+
+<% users.forEach(user => {%>
+  <p>Name: <%=user.dataValues.firstName%> <%=user.dataValues.lastName%></p>
+  <p>Email: <%=user.dataValues.email%></p>
+  <p>Birthdate: <%=user.dataValues.birthdate%></p><br/>
+<% })%>
