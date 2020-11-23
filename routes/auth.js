@@ -49,7 +49,7 @@ router.get('/login', (req, res) => {
 });
 
 router.post('/login', passport.authenticate('local', { //instead of the callback function with req was run passport.authenticate( strategy, {objectWithACoupleRedirectUrls})
-  successRedirect: '/',                                //this is that object
+  successRedirect: '/dashboard',                                //this is that object
   failureRedirect: '/auth/login',
   failureFlash: 'Invalid username or password', //ADD FLASH
   successFlash: 'You have logged in!',          //ADD FLASH
