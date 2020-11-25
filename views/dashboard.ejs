@@ -1,10 +1,53 @@
-<h2>Admin Dashboard</h2>
+<div class="dashboard-container">
+  <div class="dashboard-header row">
+    <div class="d-banner-container col-8">
+      <div class="d-banner"></div>
+    </div>
+    <div class="d-greeting-container col">
+      <div class="d-greeting dashboard">
+        <div class="d-greeting-content">
+          <h4 class="font bold">Hello, Courtney</h4>
+          <p class="font">Welcome to your dashboard. View your statistics here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<h3>Welcome to your Dashboard</h3>
-<h4>Here are all the users</h4>
+  <div class="dashboard-stats row">
+    <div class="d-stat-container">
+      <div class="dashboard col">
+        <img class="user-banner" src="https://i.imgur.com/caxKIlY.png" alt="Username and Email">
+        <% users.forEach(user => {%>
+        <li class="userlist-item"><%=user.dataValues.lastName%>, <%=user.dataValues.firstName%>
+          <%=user.dataValues.email%></li>
+        <% })%>
+      </div>
+    </div>
+    <div class="d-stat-container">
+      <div class="dashboard col"><img class="d-img" src="https://i.imgur.com/FbigSu9.png" alt="follower demographics">
+      </div>
+    </div>
 
-<% users.forEach(user => {%>
-  <p>Name: <%=user.dataValues.firstName%> <%=user.dataValues.lastName%></p>
-  <p>Email: <%=user.dataValues.email%></p>
-  <p>Birthdate: <%=user.dataValues.birthdate%></p><br/>
-<% })%>
+  </div>
+
+  <div class="dashboard-stats row">
+    <div class="d-stat-container">
+      <div class="dashboard col"><img class="d-img" src="https://i.imgur.com/LbW1b6w.png" alt="clicks by country"></div>
+    </div>
+    <div class="d-stat-container">
+      <div class="dashboard col"><img class="d-img" src="https://i.imgur.com/f2L0ohR.png" alt="twitter stats"></div>
+    </div>
+  </div>
+
+  <div class="dashboard-stats row">
+    <div class="d-stat-container">
+      <div class="dashboard col"><img class="d-img" src="https://i.imgur.com/eZwwJet.png" alt="instagran followers">
+      </div>
+    </div>
+    <div class="d-stat-container">
+      <div class="dashboard col"><img class="d-img" src="https://i.imgur.com/65PyNFs.png" alt="facebook followers">
+      </div>
+    </div>
+  </div>
+
+</div>

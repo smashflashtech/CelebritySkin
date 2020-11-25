@@ -1,21 +1,24 @@
-<form action="/auth/signup" method="POST">
-  <p><label for="new-email">Email</label>
-    <input id="new-email" type="email" name="email"></p>
+<div class="signup-login-container">
+  <form class="signup-login-form" action="/auth/signup" method="POST">
 
-  <p><label for="new-name">First Name</label>
-    <input id="new-name" type="text" name="firstName"></p>
+    <p class="form-p"><label class="form-label" for="new-name">First Name</label><br>
+      <input class="form-input" id="new-name" type="text" name="firstName"></p>
 
-  <p><label for="new-name">Last Name</label>
-    <input id="new-name" type="text" name="lastName"></p>
+    <p class="form-p"><label class="form-label"  for="new-name">Last Name</label><br>
+      <input class="form-input" id="new-name" type="text" name="lastName"></p>
 
-  <p><label for="new-name">Birthdate</label>
-    <input id="new-name" type="date" name="birthdate"></p>
+      <p class="form-p"><label class="form-label"  for="new-email">Email</label><br>
+      <input class="form-input" id="new-email" type="email" name="email"></p>
 
-  <p><label for="new-password">Password</label>
-    <input id="new-password" type="password" name="password"></p>
+      <p class="form-p"><label class="form-label"  for="new-name">Birthdate</label><br>
+      <input class="form-input" id="new-name" type="date" name="birthdate"></p>
 
-  <p><input type="submit" value="Sign up"></p>
-</form>
+      <p class="form-p"><label class="form-label"  for="new-password">Password</label><br>
+      <input class="form-input" id="new-password" type="password" name="password"></p>
+
+    <input class="form-button" type="submit" value="Sign up">
+  </form>
+</div>
 <!-- names match up in the data base -->
 <!-- action matches your POST route for this -->
 <!-- method can only be POST or GET -->
