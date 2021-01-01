@@ -2,8 +2,7 @@
 
 General Assembly hosted a 24-hour collabation challenge. Software engineering students collaborated with UX/UI design students. Teams were randomly assigned members, provided with a brief, and assigned a hypothetical client. 
 
-#### Assignment
-Celebrity Gossip
+**Our Assignment:** Celebrity Gossip
 
 # Motivation
 The purpose of this experience was to learn how the finer details of what it is like to work with interdisciplinary teams. The consensus from our group was that we learned the importance of communication--not only that you should communicate but WHAT you should communicate. One thing we noticed is that the order of development differes across disciplines. From a Design perspective, designers tends start from the big picture and working toward the smaller device. Software Engineers however, use a mobile mobile-first approach. We experienced the repurcussions of failing to communicate that from the outset. All of use walked away with the understanding of what questions should be prioritized in the initial team meeting. 
