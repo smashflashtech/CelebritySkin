@@ -141,6 +141,18 @@ li.searchbar {
   background-size: cover;
   height: 375px;
   margin: 15px 15px 15px 15px;
+  position: relative
+}
+
+.bannerTag{
+  padding: 1% 2%;
+  color: yellow;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .col-7 {
