@@ -2,11 +2,24 @@
 
 General Assembly hosted a 24-hour collabation challenge. Software engineering students collaborated with UX/UI design students. Teams were randomly assigned members, provided with a brief, and assigned a hypothetical client. 
 
-## Assignment
+#### Assignment
 Celebrity Gossip
 
 # Motivation
 The purpose of this experience was to learn how the finer details of what it is like to work with interdisciplinary teams. The consensus from our group was that we learned the importance of communication--not only that you should communicate but WHAT you should communicate. One thing we noticed is that the order of development differes across disciplines. From a Design perspective, designers tends start from the big picture and working toward the smaller device. Software Engineers however, use a mobile mobile-first approach. We experienced the repurcussions of failing to communicate that from the outset. All of use walked away with the understanding of what questions should be prioritized in the initial team meeting. 
+
+# Technologies Used
+* HTML
+* CSS
+* Javascript
+* Express
+* EJS
+* EJS-Layouts
+* Express Sessions
+* Express Passport
+* Flash
+* Sequelize
+* PostgresSQL
 
 ## Project Brief (Design Team)
 For this UI Design and Development project, your team’s assignment is to create an ​accessible landing page for users​ and a ​dashboard for your client​.
@@ -34,26 +47,14 @@ For this UI Design and Development project, your team’s assignment is to creat
 * As a user, I want a way to sign-up to join the group.
 * As a user, I want confirmation that I successfully signed-up for the group.
 
-# Figma Link
+# Figma Wireframes & Link
 * https://www.figma.com/file/aDKlrg0iSetg4eT4IvXkEO/Celebrity-Skin?node-id=144%3A287
 
 ![figma](public/assets/img/figma.png)
 
 # Screenshots
-![GIF](https://i.imgur.com/PIWXSQt.gif)
 ![landing](public/assets/img/Landing.png)
 ![dashboard1](public/assets/img/dashboard1.png)
 ![dashboard2](public/assets/img/dashboard2.png)
 
-# Technologies Used
-* HTML
-* CSS
-* Javascript
-* Express
-* EJS
-* EJS-Layouts
-* Express Sessions
-* Express Passport
-* Flash
-* Sequelize
-* PostgresSQL
+
