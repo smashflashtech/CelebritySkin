@@ -7,7 +7,9 @@ General Assembly hosted a 24-hour collabation challenge. Software engineering st
 # Motivation
 The purpose of this event was to give students the oportunity to gain experirential knowledged of what it is like to work with interdisciplinary teams.
 
-As a team, we learned it's not just how often you communicate, but WHAT you communicate that matters. We noticed the order of development differs across disciplines. From a Design perspective, designers start from the big picture and working toward the smaller device. Software Engineers however, take a mobile-first approach. We experienced the repurcussions of failing to communicate that from the outset. All of use walked away with the understanding of that some details should be prioritized for discussion in the initial team meeting. 
+As a team, we learned it's not just how often you communicate, but WHAT you communicate that matters. We noticed the order of development differs across disciplines. From a design perspective, Designers start from the big picture and working toward the smaller device. Software Engineers however, take a mobile-first approach. We experienced the repurcussions of failing to communicate that from the outset. 
+
+All of use walked away with the understanding of that some details should be prioritized for discussion in the initial team meeting. 
 
 # Technologies Used
 * HTML
